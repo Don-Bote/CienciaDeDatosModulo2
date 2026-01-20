@@ -1,0 +1,15 @@
+Documentación Técnica:
+
+El proyecto se separo en tres partes, la primera es la clase del objeto “contacto” que contiene su constructor con sus variables encapsuladas, para el manejo de éstas sus métodos get y set junto con un método llamado “informacion()” que retorna la información del contacto en formato de diccionario.
+
+En segundo lugar se crearon todas las funciones para manejar la aplicación, que son las siguientes: 
+“mostrar_menu” : Escribe las opciones del menú por consola.
+“agregar_contacto(lista)”: función que recibe una lista en la cual se agrega el nuevo contacto luego de pedir el nombre, teléfono, correo y dirección.
+“modificar_contacto(lista)”: función que recibe una lista para buscar un contacto por nombre o por el número, si lo encuentra solicita los datos para modificarlo.
+“borrar_contacto(lista)”: función que recibe una lista para buscar un contacto por nombre o por el número, para luego borrarlo de la lista si lo encuentra
+“buscar_contacto(lista)”: función que recibe una lista para buscar un contacto por nombre o por el número, y si lo encuentra devuelve los datos del contacto con la función información() en formato diccionario.
+“buscar_por_nombre(lista)”: función que recibe una lista para buscar un contacto por nombre, si lo encuentra devuelve el índice del contacto en la lista, si no lo encuentra devuelve -1.
+“buscar_por_numero(lista)”: función que recibe una lista para buscar un contacto por el número, si lo encuentra devuelve el índice del contacto en la lista, si no lo encuentra devuelve -1.
+“mostrar_todos(lista)”: función que recibe una lista y muestra por pantalla todos los contactos en ella en formato de diccionario.
+
+La tercera parte consiste en un menú para correr el programa, en el cual se van llamando las funciones según el usuario ingrese la opción deseada por consola.
